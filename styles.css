@@ -96,14 +96,49 @@ ul, a {
     font-style: italic;
 }
 
+.section-3-modal {
+    display: flex;
+    background-color: white;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-box {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+}
 .box {
     flex-direction: column;
     border-width: 5px;
     border-color: blue;
     border-radius: 15px;
     max-width: 200px;
+    border-radius: 10px;
 }
 
+.left-side-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 400px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.right-side-2 {
+    display: flex;
+    min-width: 200px;
+    justify-content: center;
+}
 .See-More-Button {
     display: flex;
     border-radius: 10px;
