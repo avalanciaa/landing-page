@@ -83,9 +83,6 @@ ul, a {
 
 .quote-section {
     display: flex;
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
     flex-wrap: wrap;
     background-color: azure;
     margin: -10px;
@@ -93,6 +90,11 @@ ul, a {
     
 }
 
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
 
 .box {
     flex-direction: column;
@@ -110,6 +112,7 @@ ul, a {
     background-color:aliceblue;
     
 }
+
 
 .See-More-Button:hover {
     background-color: lightblue;
