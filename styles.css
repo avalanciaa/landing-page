@@ -1,6 +1,5 @@
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
 ul, a {
@@ -10,26 +9,52 @@ ul, a {
 
 .main-header .header-container {
     display: flex;
+    font-size: 18px;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #adcbe3;
+    background-color: #1F2937;
     margin: -10px;
 
 }
+
+.hero-secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-right: 5px;
+}
+.header-title {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .nav-list {
     display: flex;
+    color: #E5E7EB;
     gap: 3rem;
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .section-1 {
     display: flex;
     flex-direction: row;
-    background-color: blanchedalmond;
+    background-color: #1F2937;
     margin: -10px;
     padding: 50px;
 }
 
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 5px;
+    min-width: 230px;
+}
 
 
 .left-side {
@@ -40,7 +65,7 @@ ul, a {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: aliceblue;
+    background-color: #1F2937;
     flex-grow: 1;
     min-width: 50%;
 }
@@ -56,7 +81,7 @@ ul, a {
     flex: 1;
     flex-shrink: 1;
     max-width: 200px;
-    background-color: yellow;
+    background-color: #E5E7EB;
     min-width: 50%;
 }
 
@@ -66,6 +91,7 @@ ul, a {
     background-color:lightgray;
     margin: -10px;
     padding-bottom: 20px;
+    padding: 50px;
 }
 
 .top-side {
@@ -119,9 +145,20 @@ ul, a {
     border-width: 5px;
     border-color: blue;
     border-radius: 15px;
-    max-width: 200px;
+    max-width: 175px;
     border-radius: 10px;
 }
+
+.img-text {
+    display: flex;
+    border-width: 20px;
+    max-width: 175px;
+    flex-direction: column;
+    border-color: red;
+    
+}
+
+
 
 .left-side-2 {
     display: flex;
@@ -141,14 +178,40 @@ ul, a {
 }
 .See-More-Button {
     display: flex;
+    border-radius: 7px;
+    justify-content: center;
+    width: 120px;
+    align-items: center;
+    align-content: center;
+    background-color:#3882F6;
+    color: white;
+    margin: 10px;
+    justify-content: flex-start;
+    padding: 5px;
+    padding-left: 13px;
+}
+
+
+.Sign-Up-Button {
+    display: flex;
     border-radius: 10px;
     justify-content: center;
-    max-width: 100px;
-    background-color:aliceblue;
-    
+    background-color: blue;
+    min-width: 100px;
+    border-color: white;
+    color: white;
+    padding: 5px;
 }
 
-
-.See-More-Button:hover {
-    background-color: lightblue;
+.footer-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    margin: -10px;
+    font-weight: bold;
 }
+
